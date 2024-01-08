@@ -17,8 +17,8 @@ app.layout = html.Div([
             ]),
             html.Div(className="tile is-child is-dark", style={"zindex":0, "position":"relative", "height": "500px"}, children=[
                 dgl.DeckglLy(id='network-map',
-                    mapboxtoken="pk.eyJ1Ijoia3BvdHRlciIsImEiOiJCNFlOLWVnIn0.IdEiAEoZbboAuuqOYtWg0w",
-                    mapStyle="mapbox://styles/kpotter77/ck6ct8e2w0o1o1imrq0runboi",
+                    #mapboxtoken="took this out for privacy",
+                    #mapStyle="took this out for privacy",
                     viewState = {
                         "longitude": -116,
                         "latitude": 34.65,
